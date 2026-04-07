@@ -1,0 +1,33 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+pricehunter
+
+# Go test binaries
+*.test
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+pricehunter.db
+pricehunter.db-shm
+pricehunter.db-wal
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,48 @@
+{
+  "scrape_interval_minutes": 30,
+  "request_delay_ms": 2000,
+  "max_workers": 5,
+  "request_timeout_seconds": 15,
+  "respect_robots_txt": true,
+  "proxies": [],
+  "user_agents": [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0"
+  ],
+  "notification": {
+    "enabled": false,
+    "discord_webhook_url": "",
+    "telegram_bot_token": "",
+    "telegram_chat_id": "",
+    "price_drop_threshold_percent": 5.0
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 8080
+  },
+  "products": [
+    {
+      "url": "https://www.trendyol.com/apple/iphone-16-128gb-pembe-p-857296122?boutiqueId=689770&merchantId=968",
+      "name": "iPhone 16 128GB - Trendyol"
+    },
+    {
+      "url": "https://www.hepsiburada.com/samsung-galaxy-s24-256-gb-8-gb-ram-samsung-turkiye-garantili-siyah-p-HBCV00005MLJA9",
+      "name": "Samsung Galaxy S24 256GB - Hepsiburada"
+    },
+    {
+      "url": "https://www.amazon.com.tr/Sony-WH1000XM5-S-WH-1000XM5-sr/dp/B09XSDMT4F/",
+      "name": "Sony WH-1000XM5 - Amazon TR"
+    },
+    {
+      "url": "https://www.trendyol.com/dyson/v15-detect-absolute-prusya-mavisi-bakir-p-982504147?boutiqueId=61&merchantId=571780",
+      "name": "Dyson V15 Detect - Trendyol"
+    },
+    {
+      "url": "https://www.hepsiburada.com/sony-playstation-5-slim-digital-825-gb-2-dualsense-ithalatci-garantili-p-HBCV0000AJZAW7",
+      "name": "PlayStation 5 Slim - Hepsiburada"
+    }
+  ]
+}
